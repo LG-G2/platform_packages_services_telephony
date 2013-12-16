@@ -296,6 +296,10 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mApp.startActivity(intent);
     }
+    
+    public void toggle2G(boolean on) {
+        return;
+    }
 
     private boolean showCallScreenInternal(boolean specifyInitialDialpadState,
                                            boolean showDialpad) {
